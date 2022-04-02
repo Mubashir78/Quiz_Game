@@ -53,9 +53,9 @@ ready = input("Are you ready to play?(y/n): ").lower()
 if ready == "y":
     question_maker("How many colours are there in the rainbow?", ["7", "seven"])
 
-    question_maker("What is my name?", ["mubashir", "ahmed", "mubashir ahmed"])
+    question_maker("What is my name?", "mubashir ahmed")
 
-    question_maker("How many days are there in a year?", ["365", "three sixty five", "three-sixty-five"])
+    question_maker("How many days are there in a year?", ["365", "three sixty five"])
 
     question_maker("What is the name of the highest peak/mountain?",["everest", "mount everest"])
 
